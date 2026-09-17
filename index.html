@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f6f0">
+  <meta name="description" content="Shaik Jani Basha — Computer Science & Data Science Undergraduate at KITS Guntur. Developer portfolio showcasing projects, education, and technical profile.">
+  <meta name="keywords" content="Shaik Jani Basha, Data Science, Portfolio, Computer Science, Guntur, KITS, Python, Machine Learning, Web Developer">
+  <meta name="author" content="Shaik Jani Basha">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Shaik Jani Basha — Computer Science & Data Science Portfolio">
+  <meta property="og:description" content="Undergraduate student in Computer Science & Data Science at KKR & KSR Institute of Technology and Sciences (KITS), Guntur.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://its-jani.github.io/">
+
+  <title>Shaik Jani Basha — Computer Science & Data Science</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Navigation Bar -->
+  <header class="app-bar-wrap">
+    <nav class="app-bar" aria-label="Main Navigation">
+      <a href="#home" class="brand" aria-label="Shaik Jani Basha Home">
+        <img src="assets/profile.jpg" alt="Shaik Jani Basha" class="brand-avatar" />
+        <span>Jani Basha</span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="nav-item is-active" aria-current="page">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#profiles" class="nav-item">Profiles</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+
+      <div class="app-bar-actions">
+        <!-- Theme Switcher Button -->
+        <button id="theme-toggle-btn" class="action-btn" type="button" aria-label="Toggle theme mode">
+          <!-- Moon Icon (for switching to dark) -->
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (for switching to light) -->
+          <svg class="sun-icon" style="display:none;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="menu-toggle-btn" class="action-btn mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Shell -->
+  <div class="site-shell">
+    <main>
+
+      <!-- 1. HERO SECTION -->
+      <section class="hero" id="home">
+        <!-- Hero Introduction Card -->
+        <div class="hero-copy-card">
+          <div>
+            <div class="status-badge">
+              <span class="status-dot"></span>
+              <span>Available for opportunities & projects</span>
+            </div>
+
+            <h1>Engineering data & code <span>with purpose.</span></h1>
+            
+            <p class="hero-intro">
+              I’m <strong>SHAIK JANI BASHA</strong>, a Computer Science & Data Science Undergraduate from Guntur, India. Passionate about designing robust software systems, analytical algorithms, and real-world intelligence.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <span>Explore Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+
+            <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="btn-tonal">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="#contact" class="btn-tonal">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="hero-visual-card">
+          <div class="portrait-frame">
+            <img src="assets/profile.jpg" alt="Shaik Jani Basha" class="portrait-img" />
+            <div class="portrait-accent-pill">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="12" r="10"></circle>
+              </svg>
+              <span>CSE · Data Science</span>
+            </div>
+          </div>
+
+          <div class="visual-meta">
+            <span class="visual-title-badge">Student / Developer</span>
+            <h2 class="hero-visual-name">SHAIK JANI BASHA</h2>
+            <p class="hero-visual-desc">KKR & KSR Institute of Tech & Sci (KITS) • Guntur, AP</p>
+          </div>
+
+          <a href="https://www.linkedin.com/in/skjanibasha" target="_blank" rel="noreferrer" class="profile-link-btn">
+            <span>Connect on LinkedIn</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- 2. ABOUT & BENTO SECTION -->
+      <section class="section" id="about">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">About Me</span>
+            <h2>Analytical mindset, engineering rigor.</h2>
+          </div>
+          <p class="section-subtext">
+            Specializing in Data Science and Core Computer Science, exploring the intersection of data-driven modeling and dependable software development.
+          </p>
+        </div>
+
+        <div class="about-bento">
+          <!-- Main Bento Card -->
+          <div class="bento-card bento-main">
+            <div>
+              <div class="card-icon-pill">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <h3>Data Science & Core Engineering</h3>
+              <p>
+                Currently in my 4th Year of B.Tech at KITS Guntur with an <strong>8.49 CGPA</strong>. I take pride in understanding deep data structures, statistical analysis, modern machine learning paradigms, and clean architectural design.
+              </p>
+            </div>
+          </div>
+
+          <!-- Secondary Bento Cards Column -->
+          <div class="bento-stack-sub">
+            <div class="bento-card compact-card">
+              <div class="card-icon-pill">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Location & Base</h4>
+                <p>Guntur, Andhra Pradesh, India</p>
+              </div>
+            </div>
+
+            <div class="bento-card compact-card">
+              <div class="card-icon-pill">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Problem Solving</h4>
+                <p>Active on LeetCode & HackerRank</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Toolkit Chips -->
+        <div class="stack-panel">
+          <p class="stack-title">Core Competencies & Technologies</p>
+          <div class="stack-chips">
+            <span class="stack-chip">Python</span>
+            <span class="stack-chip">Data Science</span>
+            <span class="stack-chip">Machine Learning</span>
+            <span class="stack-chip">Java</span>
+            <span class="stack-chip">SQL / Relational DBs</span>
+            <span class="stack-chip">Data Structures & Algorithms</span>
+            <span class="stack-chip">HTML5 & CSS3</span>
+            <span class="stack-chip">JavaScript</span>
+            <span class="stack-chip">Git & GitHub</span>
+            <span class="stack-chip">Pandas & NumPy</span>
+            <span class="stack-chip">Data Analysis</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. EDUCATION SECTION -->
+      <section class="section education-section" id="education">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Academic Journey</span>
+            <h2>Education & Milestones</h2>
+          </div>
+          <p class="section-subtext">
+            Consistent academic excellence spanning undergraduate engineering and foundational schooling.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">B.Tech in Computer Science and Engineering (Data Science)</h3>
+                <span class="timeline-score">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  8.49 CGPA
+                </span>
+              </div>
+              <p class="timeline-inst">KKR and KSR Institute of Technology and Sciences (KITS), Guntur</p>
+              <div class="timeline-meta">
+                <span>2023 – 2027</span>
+                <span>•</span>
+                <span>Currently in 4th Year</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Intermediate Education (Class 12th / MPC)</h3>
+                <span class="timeline-score">89.3%</span>
+              </div>
+              <p class="timeline-inst">NRI Junior College</p>
+              <div class="timeline-meta">
+                <span>Higher Secondary Education</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: 10th Schooling -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Secondary School Certificate (Class 10th)</h3>
+                <span class="timeline-score">92.0%</span>
+              </div>
+              <p class="timeline-inst">Brilliant Public School</p>
+              <div class="timeline-meta">
+                <span>Secondary Schooling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. PROJECTS SECTION -->
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Featured Work</span>
+            <h2>Practical Projects & Applications</h2>
+          </div>
+          <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="btn-tonal">
+            <span>View all on GitHub</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <div class="project-grid">
+          <!-- Card 1 -->
+          <div class="project-card project-primary">
+            <div>
+              <div class="project-card-top">
+                <div class="project-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                  </svg>
+                </div>
+                <span class="project-lang-badge">Python · ML</span>
+              </div>
+              <h3>Data Intelligence & Predictive Models</h3>
+              <p>
+                Engineered end-to-end data pipelines and predictive classification algorithms leveraging statistical analysis, data cleaning, and model evaluation metrics.
+              </p>
+            </div>
+            <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="project-link-btn">
+              <span>View Repository</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="project-card project-secondary">
+            <div>
+              <div class="project-card-top">
+                <div class="project-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <span class="project-lang-badge">Web Tech</span>
+              </div>
+              <h3>Minimalist Developer Portfolio</h3>
+              <p>
+                A high-performance personal portfolio site inspired by Material You and modern Swiss minimalism, featuring dynamic theme switching and fluid responsive layouts.
+              </p>
+            </div>
+            <a href="https://its-jani.github.io/" target="_blank" rel="noreferrer" class="project-link-btn">
+              <span>Explore Live</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="project-card project-tertiary">
+            <div>
+              <div class="project-card-top">
+                <div class="project-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                  </svg>
+                </div>
+                <span class="project-lang-badge">Data Analysis</span>
+              </div>
+              <h3>Exploratory Data Analysis Suite</h3>
+              <p>
+                Interactive exploratory analysis notebooks examining multidimensional datasets, feature correlation matrices, and automated statistical visualizations.
+              </p>
+            </div>
+            <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="project-link-btn">
+              <span>View on GitHub</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="project-card project-neutral">
+            <div>
+              <div class="project-card-top">
+                <div class="project-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <span class="project-lang-badge">DSA & Algorithms</span>
+              </div>
+              <h3>Algorithm & Problem Solving Repository</h3>
+              <p>
+                Comprehensive solution sets for algorithmic challenges spanning graphs, dynamic programming, sorting trees, and computational efficiency optimizations.
+              </p>
+            </div>
+            <a href="https://leetcode.com/u/its-jani/" target="_blank" rel="noreferrer" class="project-link-btn">
+              <span>View LeetCode Profile</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. PROFILES & PLATFORMS SECTION -->
+      <section class="section" id="profiles">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Coding & Socials</span>
+            <h2>Online Profiles & Platforms</h2>
+          </div>
+          <p class="section-subtext">
+            Explore my active repositories, professional network, and competitive coding handles.
+          </p>
+        </div>
+
+        <div class="links-grid">
+          <!-- GitHub -->
+          <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="link-tile">
+            <div class="link-tile-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </div>
+            <span class="link-tile-name">GitHub</span>
+            <span class="link-tile-handle">@its-jani</span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/skjanibasha" target="_blank" rel="noreferrer" class="link-tile">
+            <div class="link-tile-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <span class="link-tile-name">LinkedIn</span>
+            <span class="link-tile-handle">skjanibasha</span>
+          </a>
+
+          <!-- LeetCode -->
+          <a href="https://leetcode.com/u/its-jani/" target="_blank" rel="noreferrer" class="link-tile">
+            <div class="link-tile-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 18l6-6-6-6"></path>
+                <path d="M8 6l-6 6 6 6"></path>
+              </svg>
+            </div>
+            <span class="link-tile-name">LeetCode</span>
+            <span class="link-tile-handle">u/its-jani</span>
+          </a>
+
+          <!-- HackerRank / Portfolio -->
+          <a href="https://its-jani.github.io/" target="_blank" rel="noreferrer" class="link-tile">
+            <div class="link-tile-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <span class="link-tile-name">Live Site</span>
+            <span class="link-tile-handle">its-jani.github.io</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 6. CONTACT SECTION (Eatgrapes Inspired Card) -->
+      <section class="contact-section" id="contact">
+        <div class="contact-card">
+          <div class="contact-card-content">
+            <div class="contact-copy">
+              <span class="section-label">Get in touch</span>
+              <h2>Have an opportunity<br>or idea in mind?</h2>
+              <p>
+                I’m always open to discussing internships, full-time engineering roles, research, or innovative data science projects.
+              </p>
+              
+              <div class="contact-buttons-group">
+                <a href="mailto:shaikjanibasha3450@gmail.com" class="btn-primary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>Send an Email</span>
+                </a>
+
+                <a href="tel:+917997113450" class="btn-tonal">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <span>Call / WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Direct Quick Communication Rows -->
+            <div class="contact-links">
+              <a href="mailto:shaikjanibasha3450@gmail.com" class="contact-link-row">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  shaikjanibasha3450@gmail.com
+                </span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+
+              <a href="tel:+917997113450" class="contact-link-row">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  +91 7997113450
+                </span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/skjanibasha" target="_blank" rel="noreferrer" class="contact-link-row">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  skjanibasha on LinkedIn
+                </span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+
+              <a href="https://github.com/its-jani" target="_blank" rel="noreferrer" class="contact-link-row">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  its-jani on GitHub
+                </span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <a href="#home" class="footer-brand">
+          <img src="assets/profile.jpg" alt="Shaik Jani Basha" />
+          <span>SHAIK JANI BASHA</span>
+        </a>
+        <p>© 2026 Shaik Jani Basha. Built with modern minimalism & Material You aesthetics.</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
