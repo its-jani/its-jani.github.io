@@ -92,7 +92,7 @@ To run or preview this project locally:
 - **Portfolio:** [https://its-jani.github.io/](https://its-jani.github.io/)
 - **GitHub:** [@its-jani](https://github.com/its-jani)
 - **LinkedIn:** [Shaik Jani Basha](https://www.linkedin.com/in/skjanibasha)
-- **Email:** [janibashashaik005@gmail.com](mailto:janibashashaik005@gmail.com)
+- **Email:** [shaikjanibasha3450@gmail.com](mailto:shaikjanibasha3450@gmail.com)
 
 ---
 
