@@ -270,6 +270,14 @@ main {
 }
 
 /* Section Shared Typography & Header */
+.section, .hero {
+  scroll-margin-top: 6rem;
+}
+
+#home {
+  scroll-margin-top: 0;
+}
+
 .section-heading {
   display: flex;
   justify-content: space-between;

@@ -99,13 +99,20 @@ document.addEventListener('DOMContentLoaded', () => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
       if (targetId && targetId !== '#') {
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          e.preventDefault();
-          targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+        e.preventDefault();
+        if (targetId === '#home') {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
           });
+        } else {
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
         }
       }
     });
