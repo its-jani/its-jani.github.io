@@ -196,6 +196,7 @@ img {
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 12%;
   border: 1.5px solid var(--primary);
   background: var(--surface-container-high);
 }
@@ -270,12 +271,12 @@ main {
 }
 
 /* Section Shared Typography & Header */
-.section, .hero {
+.section {
   scroll-margin-top: 6rem;
 }
 
 #home {
-  scroll-margin-top: 0;
+  scroll-margin-top: 0 !important;
 }
 
 .section-heading {
@@ -1010,6 +1011,8 @@ footer {
   width: 26px;
   height: 26px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 12%;
   border: 1px solid var(--primary);
 }
 
