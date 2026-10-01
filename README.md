@@ -92,7 +92,9 @@ To run or preview this project locally:
 - **Portfolio:** [https://its-jani.github.io/](https://its-jani.github.io/)
 - **GitHub:** [@its-jani](https://github.com/its-jani)
 - **LinkedIn:** [Shaik Jani Basha](https://www.linkedin.com/in/skjanibasha)
+- **HackerRank:** [its_jani](https://www.hackerrank.com/profile/its_jani)
 - **Email:** [shaikjanibasha3450@gmail.com](mailto:shaikjanibasha3450@gmail.com)
+- **WhatsApp:** [+91 7997113450](https://wa.me/917997113450)
 
 ---
 
