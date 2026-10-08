@@ -6,13 +6,6 @@ A modern, responsive personal developer portfolio showcasing academic background
 
 ---
 
-## 🚀 Live Demo
-
-You can view the live portfolio anytime at:
-👉 **[https://its-jani.github.io/](https://its-jani.github.io/)**
-
----
-
 ## ✨ Features
 
 - **Material You Aesthetic & Minimalist Styling**: Clean typography, frosted glass floating navigation bar, bento grids, and interactive cards.
